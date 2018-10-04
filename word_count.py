@@ -10,6 +10,7 @@ parser.add_argument(
 	"data_file",
 	help="path to the file we want to read",
 )
+#git commit -am "open and read lines of file"
 
 #-------------------------------------------------------------------------------
 # Are there other arguments we need?
@@ -26,8 +27,10 @@ words = 0
 chars = 0
 
 for line in fh:
-	print(line)
-	
+	lines += 1
+
+print(lines)
+
 
 
 #-------------------------------------------------------------------------------
